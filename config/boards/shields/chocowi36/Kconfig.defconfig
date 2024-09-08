@@ -4,7 +4,7 @@
 if SHIELD_CHOCOWI36_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "chocowi36 Dongle"
+	default "chocowi36"
 	
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
