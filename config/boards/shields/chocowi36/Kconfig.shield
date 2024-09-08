@@ -1,0 +1,11 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CHOCOWI36_LEFT
+	def_bool $(shields_list_contains,chocowi36_left)
+
+config SHIELD_CHOCOWI36_RIGHT
+	def_bool $(shields_list_contains,chocowi36_right)
+
+config SHIELD_CHOCOWI36_DONGLE
+	def_bool $(shields_list_contains,chocowi36_dongle)

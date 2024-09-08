@@ -1,0 +1,25 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CHOCOWI36_DONGLE
+
+config ZMK_KEYBOARD_NAME
+	default "chocowi36 Dongle"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
+
+endif
+
+if SHIELD_CHOCOWI36_LEFT || SHIELD_CHOCOWI36_RIGHT || SHIELD_CHOCOWI36_DONGLE 
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+	
+endif

@@ -1,0 +1,13 @@
+file_format: "1"
+id: chocowi36
+name: chocowi36
+type: shield
+url: https://github.com/itsdmd/chocowi36
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - chocowi36_left
+  - chocowi36_right
+  - chocowi36_dongle
