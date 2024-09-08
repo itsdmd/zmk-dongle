@@ -12,3 +12,5 @@ include:
     shield: chocowi36_right
   - board: nice_nano_v2
     shield: chocowi36_dongle
+  - board: nice_nano_v2
+    shield: settings_reset
